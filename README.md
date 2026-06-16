@@ -8,7 +8,7 @@ This repo is the engineering journal for an ongoing project: shrink my exposure 
 
 ## Why
 
-A threat-model-first approach: I'm defending the data that lets me function — financial access first, then the keys that guard it (email, password vault, phone/2FA) — against the data economy, opportunistic automated attacks, and account-takeover fraud. I'm not trying to disappear; I'm opting out of an industry. The full reasoning, decisions, and build story are in [`docs/notes.md`](docs/notes.md).
+A threat-model-first approach: I'm defending the data that lets me function — financial access first, then the keys that guard it (email, password vault, phone/2FA) — against the data economy, opportunistic automated attacks, and account-takeover fraud. I'm not trying to disappear; I'm opting out of an industry. The full reasoning, decisions, and build story are in [`notes.md`](notes.md).
 
 ## Architecture (planned)
 
@@ -41,4 +41,4 @@ ISP gateway (DNS-locked)  ->  [bridge mode]  ->  own router (multi-gig WAN, VLAN
 
 ## Read more
 
-[`docs/notes.md`](docs/notes.md) — the why, the decisions, and the dated build journal, in my own words.
+[`notes.md`](notes.md) — the why, the decisions, and the dated build journal, in my own words.
