@@ -1,5 +1,7 @@
 # Notes — why I'm doing this, and how it's going
 
+**Version 1.1** — Phase 1 (network foundation): project kickoff + Pi build.
+
 So here's the deal. I'm taking back my own data and trying to actually understand how my digital life works, and I'm doing it on a Raspberry Pi 5. This is me writing it out as I go — partly so I remember what I did and why, partly so anyone looking can see I build things and don't just talk about them.
 
 ## Why I'm even doing this
@@ -41,3 +43,9 @@ First thing I did once I was in was patch the whole system, before installing an
 ## What's next
 
 Pi-hole, then Unbound, then swapping in the router and pointing the whole network's DNS at the Pi so it covers everything. After that, the fun Phase-2 stuff — hosting my own password vault, my own files, and other things I currently rent from big tech. One thing at a time.
+
+---
+
+## Version history
+
+- **v1.1** — Project kickoff + Pi build. Threat model, tooling decisions (router, DNS, password manager, OS), account-hardening foundation (password manager migration, credential audit, app-based 2FA, SIM-swap protection), and the Raspberry Pi 5 assembled, flashed headless, patched, and SSH-secured.
