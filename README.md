@@ -30,7 +30,8 @@ ISP gateway (DNS-locked)  ->  [bridge mode]  ->  own router (multi-gig WAN, VLAN
 - [x] Account-hardening foundation (password manager, credential audit, app-based 2FA)
 - [x] Raspberry Pi 5 assembled, headless OS, patched + SSH-secured
 - [x] Pi-hole + Unbound live (Docker; recursive resolver with DNSSEC) — proven on one client
-- [ ] Router bridge + network-wide DNS (every device on the Pi's DNS path)
+- [x] Router bridge + network-wide DNS — every device on the Pi's DNS path (**Phase 1 complete**)
+- [ ] Phase 1 cleanup — passkeys, credit freezes, privacy browser, broker purge
 - [ ] Phase 2 self-hosting (roadmap below)
 
 ## Roadmap
